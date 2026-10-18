@@ -157,7 +157,7 @@ with tab3:
     if st.button("🚀 Generate Real-Time Forecast", type="primary", use_container_width=True):
         with st.spinner("Analyzing data and calculating predictions out to 2035..."):
             try:
-                response = requests.get("http://127.0.0.1:8000/predict", timeout=120)
+                response = requests.get("https://predictive-consumption-bill-forecasting.onrender.com/predict", timeout=120)
                 response.raise_for_status()
                 st.session_state["forecast_data"] = response.json()
             except Exception as e:
