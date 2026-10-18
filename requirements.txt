@@ -4,3 +4,4 @@ streamlit
 pandas
 xgboost
 requests
+scikit-learn
