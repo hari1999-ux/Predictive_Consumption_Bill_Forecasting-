@@ -1,0 +1,15 @@
+[theme]
+# The primary accent color for interactive elements (matches the golden-orange buttons and icons)
+primaryColor = "#F5A623"
+
+# The main background color (matches the deep dark navy of the main page)
+backgroundColor = "#0b0f19"
+
+# The background color for sidebars and input widgets (matches the slightly lighter card panels)
+secondaryBackgroundColor = "#1a1e2b"
+
+# The main text color
+textColor = "#FFFFFF"
+
+# Font style
+font = "sans serif"
